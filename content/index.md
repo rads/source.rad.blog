@@ -6,7 +6,7 @@ title: rad.blog
 
 This is Radford Smith's website.
 
-<img src="pic.jpg">
+<img src="pic.jpg" width="200">
 
 ## See Also
 
