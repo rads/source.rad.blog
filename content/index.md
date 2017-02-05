@@ -2,8 +2,6 @@
 title: rad.blog
 ---
 
-## Introduction
-
 This is Radford Smith's website.
 
 <img src="pic.jpg" width="200">
