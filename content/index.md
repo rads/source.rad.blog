@@ -13,5 +13,6 @@ title: Rad
 
 ## See Also
 
+- [Email](mailto:contact@radsmith.com)
 - [GitHub](https://github.com/rads)
 - [Twitter](https://twitter.com/radfordsmith)
