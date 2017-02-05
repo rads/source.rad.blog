@@ -6,6 +6,14 @@ title: Replication
 
 > the action of copying or reproducing something.
 
+## Table of Contents
+
+- [Example](#example)
+- [Introduction](#introduction)
+- [Related Terms](#related-terms)
+- [References](#references)
+- [Implementations](#implementations)
+
 ## Example
 
 This is replication.
@@ -24,6 +32,18 @@ Replication is an essential part of peer-to-peer networking. In an unreliable ne
 
 [gossip]: https://en.wikipedia.org/wiki/Gossip_protocol
 
+## Related Terms
+
+- Distributed Systems
+- Eventual Consistency
+- Fault-Tolerance
+- Gossip Protocols
+- High Availability
+- Messaging
+- Networking
+- Peer-to-Peer
+- TCP
+
 ## References
 
 - [*Epidemic Algorithms for Replicated Database Maintenance*](https://pdfs.semanticscholar.org/49ed/15db181c74c7067ec01800fb5392411c868c.pdf) (1987)
@@ -34,12 +54,17 @@ Replication is an essential part of peer-to-peer networking. In an unreliable ne
 ## Implementations
 
 - C
+    - [MySQL](https://dev.mysql.com/doc/refman/5.7/en/replication.html)
     - [PostgreSQL](https://www.postgresql.org/docs/current/static/high-availability.html)
 - Clojure
     - [Datomic](http://www.datomic.com/)
 - Cloud
     - [Amazon Aurora](https://aws.amazon.com/rds/aurora/)
     - [Amazon DynamoDB](https://aws.amazon.com/dynamodb/)
+    - [Google Cloud Datastore](https://cloud.google.com/datastore/)
+    - [Google Cloud SQL](https://cloud.google.com/sql/)
+    - [Microsoft Azure DocumentDB](https://docs.microsoft.com/en-us/azure/documentdb/documentdb-distribute-data-globally)
+    - [Microsoft Azure SQL Database](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-automated-backups)
 - Go
     - [IPFS](https://ipfs.io)
 - Java
