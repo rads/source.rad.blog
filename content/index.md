@@ -1,8 +1,6 @@
 ---
-title: rad.blog
+title: Rad
 ---
-
-This is Radford Smith's website.
 
 <img src="pic.jpg" width="200">
 
