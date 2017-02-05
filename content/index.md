@@ -1,5 +1,5 @@
 ---
-title: Index
+title: rad.blog
 ---
 
-Hello.
+This is Radford Smith's website.
