@@ -33,11 +33,13 @@ Replication is an essential part of peer-to-peer networking. In an unreliable ne
 
 ## Implementations
 
+- C
+    - [PostgreSQL](https://www.postgresql.org/docs/current/static/high-availability.html)
+- Clojure
+    - [Datomic](http://www.datomic.com/)
 - Cloud
     - [Amazon Aurora](https://aws.amazon.com/rds/aurora/)
     - [Amazon DynamoDB](https://aws.amazon.com/dynamodb/)
-- C
-    - [PostgreSQL](https://www.postgresql.org/docs/current/static/high-availability.html)
 - Go
     - [IPFS](https://ipfs.io)
 - Java
