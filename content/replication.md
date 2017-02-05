@@ -89,7 +89,7 @@ Replication is an essential part of peer-to-peer networking. In an unreliable ne
     - [Kafka](https://kafka.apache.org/documentation/#replication)
 - JavaScript
     - [CouchDB](https://couchdb.apache.org/)
-    - [hyperlog](https://github.com/mafintosh/hyperlog)
+    - [hyperlog](https://github.com/mafintosh/hyperlog) ([bliki](hyperlog))
     - [PouchDB](https://pouchdb.com/)
-    - [secure-scuttlebutt](https://github.com/dominictarr/secure-scuttlebutt)
+    - [scuttlebot](https://github.com/ssbc/scuttlebot) ([bliki](scuttlebot))
     - [simple-scuttle](https://awinterman.github.io/simple-scuttle/)
