@@ -10,7 +10,8 @@ This is Radford Smith's website.
 
 ## Writings
 
-- <em>In Progress:</em> [Replication](https://rad.blog/replication)
+- [Bliki](bliki)
+- <em>In Progress:</em> [Replication](replication)
 
 ## See Also
 
