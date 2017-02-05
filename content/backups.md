@@ -40,4 +40,4 @@ Time Machine is enabled on each Mac. Since this part of the backup has a higher 
 
 CrashPlan runs on each machine (including the NAS). Since the local disks contain Time Machine archives, all the machines *and* their history are replicated to CrashPlan. The full Time Machine archive is safe as long as at least one copy, local or remote, is preserved. The NAS is setup in a RAID-1 array with large disks to tolerate individual hardware failures and perserve as much history as possible.
 
-The only realistic scenario where I can lose data is if my local backups and CrashPlan fail at the same time. That said, one thing I'm currently lacking is a routine for testing the backups. For example, if something goes wrong with Time Machine, the bad version will still get backed up to CrashPlan.
+The only realistic scenario where I can lose data is if my local backups and CrashPlan fail at the same time. That said, I'm lacking a routine for testing the backups. For example, if something goes wrong with Time Machine, the bad version will still get backed up to CrashPlan.
