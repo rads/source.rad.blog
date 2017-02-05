@@ -19,19 +19,15 @@ This is replication.
 - Cloud
     - [Amazon Aurora](https://aws.amazon.com/rds/aurora/)
     - [Amazon DynamoDB](https://aws.amazon.com/dynamodb/)
-
 - C
     - [PostgreSQL](https://www.postgresql.org/docs/current/static/high-availability.html)
-
-- Java
-    - [Kafka](https://kafka.apache.org/)
-
 - Go
     - [IPFS](https://ipfs.io)
-
+- Java
+    - [Kafka](https://kafka.apache.org/)
 - JavaScript
     - [CouchDB](https://couchdb.apache.org/)
-    - [PouchDB](https://pouchdb.com/)
     - [hyperlog](https://github.com/mafintosh/hyperlog)
+    - [PouchDB](https://pouchdb.com/)
     - [secure-scuttlebutt](https://github.com/dominictarr/secure-scuttlebutt)
     - [simple-scuttle](https://awinterman.github.io/simple-scuttle/)
