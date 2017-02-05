@@ -65,6 +65,7 @@ Replication is an essential part of peer-to-peer networking. In an unreliable ne
     - [Google Cloud SQL](https://cloud.google.com/sql/)
     - [Microsoft Azure DocumentDB](https://docs.microsoft.com/en-us/azure/documentdb/documentdb-distribute-data-globally)
     - [Microsoft Azure SQL Database](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-automated-backups)
+    - [Microsoft Azure Table Storage](https://azure.microsoft.com/en-us/services/storage/tables/)
 - Go
     - [IPFS](https://ipfs.io)
 - Java
