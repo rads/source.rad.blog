@@ -2,7 +2,7 @@
 title: Bliki
 ---
 
-This is my bliki. I decided to turn my blog into a bliki after I read about
-the idea on [Martin Fowler's website][fowler].
+This site is a *bliki*, not a blog. I copied this idea from
+[Martin Fowler][fowler].
 
 [fowler]: https://www.martinfowler.com/bliki/WhatIsaBliki.html
