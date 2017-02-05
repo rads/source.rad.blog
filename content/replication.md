@@ -45,6 +45,7 @@ Replication is an essential part of peer-to-peer networking. In an unreliable ne
 - Gossip Protocols
 - High Availability
 - Merkle DAG
+- Membership
 - Messaging
 - Networking
 - Network Hole Punching
