@@ -43,7 +43,6 @@ Replication is an essential part of peer-to-peer networking. In an unreliable ne
 - Networking
 - Peer-to-Peer
 - State Machines
-
 - TCP
 
 ## References
