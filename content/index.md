@@ -6,6 +6,8 @@ title: rad.blog
 
 This is Radford Smith's website.
 
+<img src="pic.jpeg">
+
 ## See Also
 
 - [GitHub](https://github.com/rads)
