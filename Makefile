@@ -7,7 +7,12 @@ BUILD_JPG = $(patsubst content/%.jpg, build/%.jpg, $(JPG))
 all: $(BUILD) $(BUILD_JPG)
 
 build/%.html: content/%.md
-	pandoc -s $< > $@
+	pandoc \
+		--standalone \
+		--smart \
+		--css=styling.css \
+		--to=html5 \
+		$< > $@
 
 build/%.jpg: content/%.jpg
 	cp $< $@
