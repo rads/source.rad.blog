@@ -2,15 +2,15 @@
 title: Books
 ---
 
-A list of favorites in no particular order:
+A list of favorites in no particular order.
 
-- *Concepts, Techniques, and Models of Computer Programming*
-- *Data and Reality*
-- *Designing Data-Intensive Applications*
-- *Envisioning Information*
-- *Making Reliable Distributed Systems in the Presence of Software Errors*
-- *Mindstorms*
-- *Out of the Tar Pit*
-- *Structure and Interpretation of Computer Programs*
-- *The Joy of Clojure*
-- *Working Effectively with Legacy Code*
+These are Amazon referral links. I donate all profit to the <a href="https://action.aclu.org/secure/donate-to-aclu" title="Want to donate too?">ACLU</a>.
+
+- [*Concepts, Techniques, and Models of Computer Programming*](https://amzn.to/2l7YtLm)
+- [*Structure and Interpretation of Computer Programs*](https://amzn.to/2kH9wtS)
+- [*Working Effectively with Legacy Code*](https://amzn.to/2kHjds6)
+- [*Data and Reality*](https://amzn.to/2l7Vr9O)
+- [*Envisioning Information*](https://amzn.to/2lckm8q)
+- [*Designing Data-Intensive Applications*](https://amzn.to/2kaJP1M)
+- [*The Joy of Clojure*](https://amzn.to/2kHshNJ)
+- [*Mindstorms*](https://amzn.to/2l7Tomd)
