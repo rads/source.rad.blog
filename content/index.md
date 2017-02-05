@@ -12,6 +12,7 @@ This is Radford Smith's website.
 
 - [Backups](backups)
 - [Bliki](bliki)
+- [Books](books)
 - <em>In Progress:</em> [Replication](replication)
 
 ## See Also
