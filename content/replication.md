@@ -49,6 +49,7 @@ Replication is an essential part of peer-to-peer networking. In an unreliable ne
 
 - [*Epidemic Algorithms for Replicated Database Maintenance*](https://pdfs.semanticscholar.org/49ed/15db181c74c7067ec01800fb5392411c868c.pdf) (1987)
 - [*Epidemic Broadcast Trees*](http://www.gsd.inesc-id.pt/~jleitao/pdf/srds07-leitao.pdf) (2007)
+- [*HyParView: a membership protocol for reliable gossip-based broadcast*](http://asc.di.fct.unl.pt/~jleitao/pdf/dsn07-leitao.pdf) (2007)
 - [*Efficient Reconciliation and Flow Control for Anti-Entropy Protocols*](https://www.cs.cornell.edu/home/rvr/papers/flowgossip.pdf) (2008)
 - [*Strong Eventual Consistency and Conflict-free Replicated Data Types*](https://www.youtube.com/watch?v=ebWVLVhiaiY) (2011)
 - [*A comprehensive study of Convergent and Commutative Replicated Data Types*](http://hal.upmc.fr/inria-00555588/document) (2011)
