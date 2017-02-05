@@ -7,6 +7,6 @@ build/%.html: content/%.md
 	pandoc -s $< > $@
 
 clean:
-	rm -rf build/*
+	rm -rf build/**.html
 
 .PHONY: clean
