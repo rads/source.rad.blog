@@ -42,14 +42,18 @@ Replication is an essential part of peer-to-peer networking. In an unreliable ne
 - Messaging
 - Networking
 - Peer-to-Peer
+- State Machines
+
 - TCP
 
 ## References
 
 - [*Epidemic Algorithms for Replicated Database Maintenance*](https://pdfs.semanticscholar.org/49ed/15db181c74c7067ec01800fb5392411c868c.pdf) (1987)
+- [*Epidemic Broadcast Trees*](http://www.gsd.inesc-id.pt/~jleitao/pdf/srds07-leitao.pdf) (2007)
 - [*Efficient Reconciliation and Flow Control for Anti-Entropy Protocols*](https://www.cs.cornell.edu/home/rvr/papers/flowgossip.pdf) (2008)
 - [*Strong Eventual Consistency and Conflict-free Replicated Data Types*](https://www.youtube.com/watch?v=ebWVLVhiaiY) (2011)
 - [*A comprehensive study of Convergent and Commutative Replicated Data Types*](http://hal.upmc.fr/inria-00555588/document) (2011)
+- [*Epidemic Algorithms for Log Sharing with Onyx*](https://www.dropbox.com/s/vs2gmpq32dtszwd/Project_Report_Sondre_Basma.pdf?dl=0) (2016)
 
 ## Implementations
 
