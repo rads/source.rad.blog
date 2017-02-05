@@ -48,11 +48,11 @@ Replication is an essential part of peer-to-peer networking. In an unreliable ne
 - Messaging
 - Networking
 - Network Hole Punching
-- Partial order
+- Partial Order
 - Peer-to-Peer
 - State Machines
 - TCP
-- Total order
+- Total Order
 - UDP
 
 ## References
