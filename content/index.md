@@ -10,8 +10,8 @@ This is Radford Smith's website.
 
 ## Writings
 
-- [Bliki](bliki)
 - [Backups](backups)
+- [Bliki](bliki)
 - <em>In Progress:</em> [Replication](replication)
 
 ## See Also
