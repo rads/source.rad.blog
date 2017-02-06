@@ -1,0 +1,80 @@
+move gossip to a separate page
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is ahead of 'origin/master' by 4 commits.
+#   (use "git push" to publish your local commits)
+#
+# Changes to be committed:
+#	new file:   content/gossip-protocols.md
+#	modified:   content/replication.md
+#
+# ------------------------ >8 ------------------------
+# Do not touch the line above.
+# Everything below will be removed.
+diff --git a/content/gossip-protocols.md b/content/gossip-protocols.md
+new file mode 100644
+index 0000000..a4d82c6
+--- /dev/null
++++ b/content/gossip-protocols.md
+@@ -0,0 +1,11 @@
++---
++title: Gossip Protocols
++---
++
++- [*Epidemic Algorithms for Replicated Database Maintenance*](https://pdfs.semanticscholar.org/49ed/15db181c74c7067ec01800fb5392411c868c.pdf) (1987)
++- [*Lightweight Probabalistic Broadcast*](http://perso.telecom-paristech.fr/~kuznetso/pubs/Lpbcast_tocs.pdf) (2003)
++- [*Epidemic Broadcast Trees*](http://www.gsd.inesc-id.pt/~jleitao/pdf/srds07-leitao.pdf) (2007)
++- [*HyParView: a membership protocol for reliable gossip-based broadcast*](http://asc.di.fct.unl.pt/~jleitao/pdf/dsn07-leitao.pdf) (2007)
++- [*Efficient Reconciliation and Flow Control for Anti-Entropy Protocols*](https://www.cs.cornell.edu/home/rvr/papers/flowgossip.pdf) (2008)
++- [*EpTO: An Epidemic Total Order Algorithm for Large-Scale Distributed Systems*](http://haslab.uminho.pt/mmatos/files/p100-matos.pdf) (2015)
++- [*Epidemic Algorithms for Log Sharing with Onyx*](https://www.dropbox.com/s/vs2gmpq32dtszwd/Project_Report_Sondre_Basma.pdf?dl=0) (2016)
+diff --git a/content/replication.md b/content/replication.md
+index 1df0955..7715bef 100644
+--- a/content/replication.md
++++ b/content/replication.md
+@@ -34,41 +34,16 @@ Replication is an essential part of peer-to-peer networking. In an unreliable ne
+ 
+ ## Related Terms
+ 
+-- Atomic Broadcast
+-- Content Addressing
+-- Content Hashing
+-- Discovery
+-- Distributed Systems
+-- Encryption
+-- Eventual Consistency
+-- Fault-Tolerance
+-- Gossip Protocols
+-- High Availability
+-- Merkle DAG
+-- Membership
+-- Messaging
+-- Networking
+-- Network Hole Punching
+-- Partial Order
+-- Peer-to-Peer
+-- State Machines
+-- TCP
+-- Total Order
+-- UDP
++Atomic Broadcast, Content Addressing, Content Hashing, Discovery, Distributed Systems, Encryption, Eventual Consistency, Fault-Tolerance, Gossip Protocols, High Availability, Merkle DAG, Membership, Messaging, Networking, Network Hole Punching, Partial Order, Peer-to-Peer, State Machines, TCP, Total Order, UDP
+ 
+ ## References
+ 
+-- [*Epidemic Algorithms for Replicated Database Maintenance*](https://pdfs.semanticscholar.org/49ed/15db181c74c7067ec01800fb5392411c868c.pdf) (1987)
+-- [*Lightweight Probabalistic Broadcast*](http://perso.telecom-paristech.fr/~kuznetso/pubs/Lpbcast_tocs.pdf) (2003)
+-- [*Epidemic Broadcast Trees*](http://www.gsd.inesc-id.pt/~jleitao/pdf/srds07-leitao.pdf) (2007)
+-- [*HyParView: a membership protocol for reliable gossip-based broadcast*](http://asc.di.fct.unl.pt/~jleitao/pdf/dsn07-leitao.pdf) (2007)
+-- [*Efficient Reconciliation and Flow Control for Anti-Entropy Protocols*](https://www.cs.cornell.edu/home/rvr/papers/flowgossip.pdf) (2008)
+ - [*Strong Eventual Consistency and Conflict-free Replicated Data Types*](https://www.youtube.com/watch?v=ebWVLVhiaiY) (2011)
+ - [*A comprehensive study of Convergent and Commutative Replicated Data Types*](http://hal.upmc.fr/inria-00555588/document) (2011)
+ - [*Reliable, Consistent, and Efficient Data Sync for Mobile Apps*](https://www.usenix.org/system/files/conference/fast15/fast15-paper-go.pdf) (2015)
+ - [*Simba: Tunable End-to-End Data Consistency for Mobile Apps*](https://web.eecs.umich.edu/~harshavm/papers/eurosys15.pdf) (2015)
+-- [*EpTO: An Epidemic Total Order Algorithm for Large-Scale Distributed Systems*](http://haslab.uminho.pt/mmatos/files/p100-matos.pdf) (2015)
+-- [*Epidemic Algorithms for Log Sharing with Onyx*](https://www.dropbox.com/s/vs2gmpq32dtszwd/Project_Report_Sondre_Basma.pdf?dl=0) (2016)
++
++See also: [Gossip Protocols](gossip-protocols).
+ 
+ ## Implementations
+ 
