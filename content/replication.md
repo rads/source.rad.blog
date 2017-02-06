@@ -52,6 +52,7 @@ See also: [Gossip Protocols](gossip-protocols).
     - [PostgreSQL](https://www.postgresql.org/docs/current/static/high-availability.html)
 - Clojure
     - [Datomic](http://www.datomic.com/)
+    - [replikativ](http://replikativ.io/)
 - Cloud
     - [Amazon Aurora](https://aws.amazon.com/rds/aurora/)
     - [Amazon DynamoDB](https://aws.amazon.com/dynamodb/)

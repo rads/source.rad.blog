@@ -5,7 +5,7 @@ title: Scuttlebot
 - GitHub: [https://github.com/ssbc/scuttlebot](https://github.com/ssbc/scuttlebot)
 - FAQ: [https://ssbc.github.io/docs/ssb/faq.html](https://ssbc.github.io/docs/ssb/faq.html)
 
-## Notes
+## Message Ordering
 
 > **Is there a global total order in SSB?**
 >
