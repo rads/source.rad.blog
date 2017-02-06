@@ -6,5 +6,5 @@
 ## Start Watcher
 
 ```
-bin/watch
+boot watch build --dir=~/src/rad.blog/prod
 ```
