@@ -1,5 +1,0 @@
----
-title: SICP
----
-
-A classic.
