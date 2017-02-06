@@ -18,3 +18,5 @@ title: Gossip Protocols
     - More research needed
 - [*Epidemic Algorithms for Log Sharing with Onyx*](https://www.dropbox.com/s/vs2gmpq32dtszwd/Project_Report_Sondre_Basma.pdf?dl=0) (2016)
     - More research needed
+- ["ArchitectureGossip" on the Cassandra Wiki](https://wiki.apache.org/cassandra/ArchitectureGossip)
+    - Describes Cassandra's membership protocol (based on Scuttlebutt)
