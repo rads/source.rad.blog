@@ -6,5 +6,5 @@
 ## Start Watcher
 
 ```sh
-boot watch build --dir=~/src/rad.blog/prod
+bin/daemon
 ```
