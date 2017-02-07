@@ -1,4 +1,5 @@
 /build
 /logs
 /target
+/resources/content
 .nrepl-history
