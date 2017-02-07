@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-jekyll serve $@
+jekyll serve -s $1 -d /tmp/rad.blog-jekyll
