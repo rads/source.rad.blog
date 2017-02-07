@@ -8,3 +8,9 @@
 ```sh
 bin/daemon
 ```
+
+## Start Local Server
+
+```sh
+bin/server
+```
