@@ -12,5 +12,5 @@ bin/daemon
 ## Start Local Server
 
 ```sh
-bin/server $HOME/src/rad.blog/prod
+bin/server
 ```
