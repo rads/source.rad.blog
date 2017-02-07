@@ -54,7 +54,5 @@
     (sift :move {#"^content/(.+)" "$1"
                  #"^static/(.+)" "$1"}
           :include #{#"^([^/]+|js/[^/]+)$"})
-    (sift :invert true
-          :include #{#"(.+)\.md$"})
     (target :dir dir
             :no-clean true)))
