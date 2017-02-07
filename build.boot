@@ -8,7 +8,7 @@
          '[clojure.java.io :as io]
          '[me.raynes.fs :as fs])
 
-(defn run-pandoc-cli [in-file]
+(defn- run-pandoc-cli [in-file]
   (shell/sh "pandoc"
             "--css=styling.css"
             "--smart"
@@ -18,11 +18,15 @@
             "--to=html5"
             :in in-file))
 
-(defn compile-md! [in-file out-file]
+(defn- compile-md! [in-file out-file]
   (let [{:keys [out]} (run-pandoc-cli in-file)]
     (doto out-file
       (io/make-parents)
       (spit out))))
+
+(defn- content-files [fileset]
+  (->> (input-files fileset)
+       (filter #(re-seq #"^content" (:path %)))))
 
 (deftask pandoc
   "Convert all .md files to .html in content/ dir"
