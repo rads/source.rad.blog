@@ -14,9 +14,11 @@
 
 (defn run-pandoc-cli [in-file]
   (shell/sh "pandoc"
-            "--standalone"
-            "--smart"
             "--css=styling.css"
+            "--smart"
+            "--standalone"
+            "--template=resources/pandoc/template.html"
+            "--title-prefix=rad.blog"
             "--to=html5"
             :in in-file))
 
@@ -51,7 +53,7 @@
     (pandoc)
     (sift :move {#"^content/(.+)" "$1"
                  #"^static/(.+)" "$1"}
-          :include #{#"^[^/]+$"})
+          :include #{#"^([^/]+|js/[^/]+)$"})
     (sift :invert true
           :include #{#"(.+)\.md$"})
     (target :dir dir

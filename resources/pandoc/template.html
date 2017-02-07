@@ -13,7 +13,7 @@ $endif$
 $if(keywords)$
   <meta name="keywords" content="$for(keywords)$$keywords$$sep$, $endfor$">
 $endif$
-  <title>$if(title-prefix)$$title-prefix$ – $endif$$pagetitle$</title>
+  <title>$if(title-prefix)$$title-prefix$: $endif$$pagetitle$</title>
   <style type="text/css">code{white-space: pre;}</style>
 $if(quotes)$
   <style type="text/css">q { quotes: "“" "”" "‘" "’"; }</style>
@@ -63,5 +63,20 @@ $body$
 $for(include-after)$
 $include-after$
 $endfor$
+<script>
+(function() {
+  var s = document.createElement('script');
+  s.type = 'text/javascript';
+  s.async = true;
+  s.src = '/js/events-client.min.js';
+  s.onload = function() {
+    var c = radBlogEventsClient;
+    c.sendEvent(c.createEvent(), function(err) {
+      if (err) console.log(err);
+    });
+  }
+  document.body.appendChild(s);
+})();
+</script>
 </body>
 </html>
