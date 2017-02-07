@@ -51,7 +51,8 @@
   [d dir VAL #{str} "The set of directories to write to (target)."]
   (comp
     (pandoc)
-    (sift :move {#"^content/(.+)" "$1"
+    (sift :move {#"^content/(.+).md" "content/$1.text"
+                 #"^content/(.+)" "$1"
                  #"^static/(.+)" "$1"}
           :include #{#"^([^/]+|js/[^/]+)$"})
     (target :dir dir
