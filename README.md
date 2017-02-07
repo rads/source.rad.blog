@@ -1,7 +1,7 @@
 # rad.blog
 
-- Uses `pandoc` for parsing
-- Uses `entr` for watching
+- Uses `pandoc` for parsing Markdown
+- Uses `boot` for build orchestration
 
 ## Start Watcher
 
