@@ -8,10 +8,6 @@
          '[clojure.java.io :as io]
          '[me.raynes.fs :as fs])
 
-(defn content-files [fileset]
-  (->> (input-files fileset)
-       (filter #(re-seq #"^content" (:path %)))))
-
 (defn run-pandoc-cli [in-file]
   (shell/sh "pandoc"
             "--css=styling.css"
