@@ -13,7 +13,7 @@
             "--css=styling.css"
             "--smart"
             "--standalone"
-            "--template=resources/pandoc/template.html"
+            "--template=resources/pandoc/template-blue.html"
             "--title-prefix=rad.blog"
             "--to=html5"
             :in in-file))
