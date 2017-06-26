@@ -11,11 +11,13 @@ body {
 }
 
 html,
-html.chrome.mobile {
+html.chrome.mobile,
+html.safari.mobile {
   background-color: #428ade;
 }
 
-html.chrome {
+html.chrome,
+html.safari {
   background-color: #000;
 }
 
@@ -154,4 +156,15 @@ figure figcaption {
 
 strong {
   font-weight: 600;
+}
+
+code {
+  background-color: #f5f5f5;
+  font-size: 12px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  padding: 1px 3px;
+  font-family: Consolas, monaco, monospace;
+  position: relative;
+  top: -1px;
 }
