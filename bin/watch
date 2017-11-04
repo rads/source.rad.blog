@@ -3,5 +3,4 @@
 cd `dirname $0`/..
 
 BOOT_JVM_OPTIONS='-Xmx128m -client' \
-  boot watch build --dir=$HOME/src/rad.blog/prod \
-  &> /tmp/rad.blog &
+  boot watch build --dir=$HOME/src/rad.blog/prod
