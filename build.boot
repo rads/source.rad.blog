@@ -11,7 +11,7 @@
 (defn- run-pandoc-cli [in-file]
   (shell/sh "pandoc"
             "--css=styling.css"
-            "--smart"
+	    "-f markdown+smart"
             "--standalone"
             "--template=resources/pandoc/template-blue.html"
             "--title-prefix=rad.blog"
